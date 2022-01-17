@@ -28,7 +28,7 @@ export default function Carrousel(props) {
             <div className="carousel-inner relative w-full overflow-hidden">
                 <div className="carousel-item active relative float-left w-full">
                     <img
-                        src={`.${props.project.img}`}
+                        src={`.${props.project.img1}`}
                         className="block w-full"
                         alt="..."
                     />
@@ -39,24 +39,24 @@ export default function Carrousel(props) {
                 </div>
                 <div className="carousel-item relative float-left w-full">
                     <img
-                        src={`.${props.project.img}`}
+                        src={`.${props.project.img2}`}
                         className="block w-full"
                         alt="..."
                     />
                     <div className="carousel-caption hidden md:block absolute text-center">
-                        <h5 className="text-xl">Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5 className="text-xl"></h5>
+                        <p></p>
                     </div>
                 </div>
                 <div className="carousel-item relative float-left w-full">
                     <img
-                        src={`.${props.project.img}`}
+                        src={`.${props.project.img3}`}
                         className="block w-full"
                         alt="..."
                     />
                     <div className="carousel-caption hidden md:block absolute text-center">
-                        <h5 className="text-xl">Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 className="text-xl"></h5>
+                        <p></p>
                     </div>
                 </div>
 

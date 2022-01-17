@@ -5,7 +5,7 @@ module.exports = {
     theme: {
         fontFamily: {
             'Oswald': ['Oswald', 'sans-serif'],
-            'Roboto': ['Roboto', 'sans-serif']
+            'Roboto': ['Roboto', 'sans-serif'],
         },
         screens: {
             'sm': '640px',

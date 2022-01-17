@@ -4,11 +4,7 @@ import {Link as ScrollLink} from 'react-scroll';
 
 export default function Navigation() {
     return (
-        <div
-            style={{
-                background: '#1c1c1c',
-            }}
-        >
+        <div id="navigation" style={{background: '#1c1c1c'}}>
             <div className="w-10/12 flex items-center justify-between mx-auto py-3 text-white">
                 <h1 className="text-3xl font-Oswald">{content.nav.logo}{' '}
                     <span className="w-5 h-3 bg-red-500 inline-block rounded-lg"/><span
