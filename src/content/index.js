@@ -24,7 +24,7 @@ export default {
                 img3: './assets/images/pulse3.png',
                 desc: 'React app with Node.js backend to allow patients to book an appointment at their GP.',
                 alt: 'React patient appointment booking app',
-                techs: ['React', 'Node.js', 'MongoDB', 'Bootstrap'],
+                techs: ['React', 'Node.js', 'Express', 'MongoDB', 'Bootstrap'],
                 url: '',
                 github: 'https://github.com/iO-Academy/2021-aug-pulse-fe',
             },

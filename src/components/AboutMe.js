@@ -7,7 +7,7 @@ export default function AboutMe() {
     return (
         <div id="aboutme"
              className="min-h-screen w-5/6 sm:w-3/5 mx-auto flex flex-col justify-center text-center sm:text-left relative">
-            <h1 className="text-3xl font-Oswald font-medium mb-3 mt-7">ABOUT ME</h1>
+            <h1 className="text-3xl font-Oswald font-medium mb-5 mt-7">ABOUT ME</h1>
             <div className="flex gap-4 flex-col items-center sm:flex-row sm:items-start">
                 <img src="./assets/images/hdvf.png" alt="" className="rounded-lg w-32 h-32 shrink-0"/>
                 <div className="font-Roboto text-gray-500 text-center sm:text-left">

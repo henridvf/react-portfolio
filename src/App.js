@@ -4,7 +4,7 @@ import Main from "./pages/Main";
 import Detail from "./pages/Detail";
 import NotFound from "./pages/NotFound";
 
-function App() {
+export default function App() {
     return (
         <BrowserRouter>
             <Routes>
@@ -15,5 +15,3 @@ function App() {
         </BrowserRouter>
     );
 }
-
-export default App;

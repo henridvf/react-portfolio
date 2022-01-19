@@ -1,6 +1,5 @@
 import React from 'react';
 import content from '../content/';
-import LazyLoad from "react-lazyload";
 import Project from "./Project";
 import BackToTopButton from "./BackToTopButton";
 
